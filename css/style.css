@@ -255,6 +255,7 @@ main .main1 .main1ani .onebox{
 
 
 /* 메인2 */
+
 main .main2 {
    cursor: url('../images/커서.png')2 2,auto;
     overflow: hidden;
@@ -335,11 +336,13 @@ main .main2 h1:before {
     overflow: hidden;
     position: absolute;
     top: 30%; left: 15%;
+    
 }
 
 .main2 .m2sw .main_swiper .swiper-wrapper .swiper-slide {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    
 }
 
 .m2sw .main_swiper .swiper-wrapper .swiper-slide .swtx {
@@ -348,26 +351,28 @@ main .main2 h1:before {
     flex-wrap: wrap;
     align-items: end;
     justify-content: space-between;
+    margin: 1rem;
+    
 }
 
 .m2sw .main_swiper .swiper-wrapper .swiper-slide .swtx h2{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .m2sw .main_swiper .swiper-wrapper .swiper-slide .swtx p {
     color: #a5a5a5;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .m2sw .main_swiper .swiper-wrapper .swiper-slide .swpog {
     width: 580px;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .main2 .m2sw .main_swiper .swiper-wrapper .swiper-slide img {
-    width: 350px;
-    height: 420px;
+    width: 300px;
+    height: 350px;
     object-fit: contain;
     position: relative;
     left: 20%; top: 8%;
@@ -376,7 +381,7 @@ main .main2 h1:before {
 /* 메인 페이지네이션 */
 .main2 .m2sw .main_swiper .swiper-pagination {
     position: absolute;
-    top: 675px;
+    top: 580px;
     width: 55%;
     background-color: #D9D9D9;
     border-radius: 1rem;
@@ -391,7 +396,7 @@ main .main2 h1:before {
 /* 메인버튼 */
 .main2 .main_nav .swiper-button-next {
     position: relative;
-    top: 790px; left: 41%;
+    top: 650px; left: 41%;
     color: #1F1F1F;
     background-color: #dbdbdb;
     padding: 2rem;
@@ -400,7 +405,7 @@ main .main2 h1:before {
 
 .main2 .main_nav .swiper-button-prev {
     position: relative;
-    top: 750px; left: 35%;
+    top: 610px; left: 35%;
     color: #1F1F1F;
     background-color: #dbdbdb;
     padding: 2rem;
@@ -436,7 +441,7 @@ main .main2 h1:before {
 /* 책배경 */
 main .main2 .bookbg {
     position: absolute;
-    bottom: -13%; left: -10%;
+    bottom: -25%; left: -10%;
 }
 
 /* 책 선반 */
@@ -572,6 +577,8 @@ main .main4 {
     overflow: hidden;
 }
 
+
+
 .main4 .m4topflex {
     width: 90%;
     margin: 0 auto;
@@ -701,6 +708,8 @@ main .main4 {
     border-top: 2px solid #1F1F1F;
     width: 750px;
 }
+
+
 
 .main4 .m4btflex {
     width: 90%;

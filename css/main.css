@@ -1019,6 +1019,9 @@ padding-bottom: 6rem;
  display: none;
 }
 
+
+
+
 .main4 .m4topflex .m4cm {
   width: 330px;
   height: 250px;
@@ -1218,9 +1221,9 @@ main .main3 .m3flex {
 }
 
 main .main3 h1{
- padding-top: 2rem;
- font-size: 2.8rem;
- padding-bottom: 1.3rem;
+ padding-top: 1rem;
+ font-size: 2.2rem;
+ padding-bottom: 1rem;
 }
 
 .main3 .m3flex .youtube iframe {
@@ -1241,13 +1244,13 @@ main .main3 h1{
 }
 
 .main3 .m3flex .oneday h3 {
- font-size: .7.8rem;
+ font-size: .7rem;
  padding-left: 10rem;
- padding-top: 1.5rem;
+ padding-top: 1rem;
 }
 
 .main3 .m3flex .oneday h5 {
- font-size: .7.3rem;
+ font-size: .7rem;
 }
 
 .main3 .m3bg {
@@ -1265,9 +1268,9 @@ display: none;
 }
 
 .main4 .m4topflex .m4cm {
- width: 300px;
- height: 220px;
- background: white url('../images/민음커뮤니티.png') no-repeat 78px bottom/130px;
+ width: 260px;
+ height: 180px;
+ background: white url('../images/민음커뮤니티.png') no-repeat 70px bottom/100px;
  padding-left: .5rem;
  padding-right: 1rem;
  padding-top: 2rem;
@@ -1276,16 +1279,16 @@ display: none;
 }
 
 .main4 .m4topflex .m4cm:hover {
- background: #36A280 url('../images/민음커뮤니티.png') no-repeat 78px bottom/133px;
+ background: #36A280 url('../images/민음커뮤니티.png') no-repeat 70px bottom/110px;
 }
 .main4 .m4topflex .m4cm:hover h1 {
  color: white;
 }
 
 .main4 .m4topflex .m4bsh {
- width: 300px;
- height: 220px;
- background: white url('../images/민음북샵.png') no-repeat 80px bottom/140px;
+ width: 260px;
+ height: 180px;
+ background: white url('../images/민음북샵.png') no-repeat 70px bottom/110px;
  padding-left: .5rem;
  padding-right: 1rem;
  padding-top: 2rem;
@@ -1294,7 +1297,7 @@ display: none;
 }
 
 .main4 .m4topflex .m4bsh:hover {
- background: #36A280 url('../images/민음북샵.png') no-repeat 80px bottom/143px;
+ background: #36A280 url('../images/민음북샵.png') no-repeat 70px bottom/120px;
 }
 
 .main4 .m4topflex .m4bsh:hover h1 {
@@ -1316,15 +1319,26 @@ display: none;
  text-align: center;
 }
 
+.main4 .m4news h1:before {
+ 
+  height: 40px;
+
+}
+
+.main4 .m4event h1:before {
+
+  height: 40px;
+ 
+  }
 
 /* 민음소식 */
 .main4 .m4news h1 {
- font-size: 3rem;
+ font-size: 2rem;
  padding-bottom: 1rem;
 }
 
 .main4 .m4news .m4nwborder{
- width: 600px;
+ width: 550px;
 }
 
 
@@ -1334,12 +1348,12 @@ display: none;
 }
 
 .main4 .m4event h1 {
- font-size: 3rem;
+ font-size: 2rem;
  padding-bottom: 1rem;
 }
 
 .main4 .m4event .m4eventborder{
- width: 600px;
+ width: 550px;
 }
 
 
@@ -1503,15 +1517,16 @@ width: 300px;
 }
 
 /* 메인3 */
-main .main3 .m3flex {
+
+/* main .main3 .m3flex {
   padding-right: 30rem;
-  padding-top: 15rem;
-  width: 50%;
- }
+  padding-top: 1rem;
+  width: 80%;
+ } */
  
  main .main3 h1{
   padding-left: 1rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   font-size: 2.8rem;
   padding-bottom: 1.3rem;
  }
@@ -1581,6 +1596,172 @@ main .main3 .m3flex {
 
 }
  
+@media screen and (max-width:425px) {
+  .m-mobile {
+    position: fixed;
+    z-index: 200;
+    width: 425px;
+    padding-right: 1rem;
+}
+
+
+/* 메인1 */
+.main1 .m1tx h1{
+ font-size: 2.5rem;
+ padding-top: 25rem;
+ padding-left: 5rem;
+ padding-right: 4rem;
+ text-align: center;
+}
+
+/* 메인2 */
+.main2 .m2sw .sub_swiper {
+display: inline-block;
+position: relative;
+top: 245px; left: 2%;
+z-index: 10;
+}
+
+/* 메인3 */
+main .main3 .m3flex {
+ padding-right: 25rem;
+ padding-top: 8rem;
+ width: 50%;
+}
+
+main .main3 h1{
+ padding-left: 1rem;
+ padding-top: 2rem;
+ font-size: 2.5rem;
+ padding-bottom: 1.3rem;
+}
+
+.main3 .m3flex .youtube iframe {
+ padding-left: 3rem;
+ width:350px;
+ height: 215px;
+}
+
+.main3 .m3moregr h4 {
+ font-size: .8rem;
+}
+
+.main3 .m3moregr i {
+ position: relative;
+ top: -22px; left: 330px;
+ width: 5%;
+}
+
+
+/* 하루한문장 */
+.main3 .m3flex .oneday p {
+ font-size: .5rem;
+ padding-bottom: 2rem;
+}
+
+
+  
+  .main3 .m3flex .oneday h3 {
+   font-size: .6rem;
+   padding-left: 1rem;
+   padding-right: 8rem;
+   padding-top: 1.5rem;
+  }
+  
+  .main3 .m3flex .oneday h5 {
+   font-size: .6rem;
+   padding-right: 10rem;
+  }
+  
+  .main3 .m3bg {
+  display: none;
+  }
+  
+
+  .main4 .m4topflex h1 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+
+.main4 .m4topflex .m4cm {
+  border-radius: 1rem;
+  width: 150px;
+  height: 150px;
+  background: white url('../images/민음커뮤니티.png') no-repeat 25px bottom/90px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  cursor: pointer;
+  transition: all .2s;
+ }
+ 
+ .main4 .m4topflex .m4cm:hover {
+  background: #36A280 url('../images/민음커뮤니티.png') no-repeat 25px bottom/93px;
+ }
+ .main4 .m4topflex .m4cm:hover h1 {
+  color: white;
+ }
+ 
+
+.main4 .m4topflex .m4bsh {
+  border-radius: 1rem;
+  width: 150px;
+  height: 150px;
+  background: white url('../images/민음북샵.png') no-repeat 25px bottom/100px;
+  padding-left: .5rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  cursor: pointer;
+  transition: all .2s;
+ }
+ 
+ .main4 .m4topflex .m4bsh:hover {
+  background: #36A280 url('../images/민음북샵.png') no-repeat 25px bottom/103px;
+ }
+ 
+ .main4 .m4topflex .m4bsh:hover h1 {
+  color: white;
+
+ }
+
+ .main4 .m4news .m4nwborder{
+  width: 300px;
+}
+
+.main4 .m4news .m4nwborder p {
+  font-size: .6rem;
+}
+
+/* 이벤트 */
+
+.main4 .m4event .m4eventborder{
+  width: 300px;
+ }
+ .main4 .m4event .m4eventborder p{
+  font-size: .6rem;
+ }
+
+ 
+/* 민음소식 */
+.main4 .m4news h1 {
+  font-size: 2rem;
+  padding-bottom: .5rem;
+}
+
+
+/* 이벤트 */
+.main4 .m4event {
+  padding-top: 1rem;
+}
+
+.main4 .m4event h1 {
+  font-size: 2rem;
+  padding-bottom:.5rem;
+}
+
+
+}
 
 @media screen and (max-width:355px) {
   .m-mobile {
@@ -1765,6 +1946,8 @@ display: none;
 
 
 /* 메인4 */
+
+
 .main4 .m4topflex {
  padding-top: 8rem;
 padding-bottom: 4rem;
